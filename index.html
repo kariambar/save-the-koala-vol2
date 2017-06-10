@@ -47,8 +47,7 @@
 		</div>
 		<div class="row btns">
 		<div class="col-lg-2 col-md-6 col-sm-6 col-xs-6">
-		<button type="button" class="btn btn-primary btn-lg btn-block">See More</button>
-		</div>
+		<button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="tooltip" data-placement="bottom" title="Hola,soy un boton">See More</button>
 	</div>
 </section>
 <!-- SEGUNDA SECCION -->		
@@ -86,14 +85,32 @@
 				<h6 class="primero">EASY HELP</h6>
 				<h2 class="save">Save Koalas From Possible Extinction!</h2>
 				<p class="text">Loss of koala habitat is the major threat facing koalas today. Since white settlement of Australia, roughly 80% of the koala’s habitat has been destroyed and of what remains, most occurs on privately owned land and almost none is protected.</p>
-				<button type="button" class="btn btn-secondary btn-lg ">Read more</button>
+				<button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#myModal">Read more</button>
+				<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">ERROR 404</h4>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Close</button>
+      </div>
+    </div>
+  </div>
+</div>	
+
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 				<img src="img/cosita.jpg" alt="cosita" class="img-responsive">
 			</div>
 		</div>
 	</div>
-</section>			
+</section>	
+
+
+
 <!-- CUARTA SECCION -->	
 <section class="four-section">
 	<div class="container">
@@ -257,6 +274,6 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="asset/js/main.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
