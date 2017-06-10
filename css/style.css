@@ -138,6 +138,15 @@ padding: 4rem;
 .four-section{
 
 }
+
+
+.carousel{
+	width: 100%
+}
+
+.navbar-default{
+	margin: 0;
+}
 .cuarta{
 color: white;
 margin-top: 5em;
